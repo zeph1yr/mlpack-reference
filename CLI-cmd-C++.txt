@@ -1,7 +1,7 @@
-g++ a.cpp -o a -fopenmp -lpthread -lmlpack -DARMA_DONT_USE_WRAPPER -lopenblas -llapac
+g++ a.cpp -o a -fopenmp -lpthread -lmlpack -DARMA_DONT_USE_WRAPPER -lopenblas
 
 // Installed from ubuntu package manager
 // Object file = a
 // ./a to run compiler program
 // -fopenmp -lpthread, openmp support for parallel processing
-// -DARMA_DONT_USE_WRAPPER -lopenblas -llapac, Armadillo library, mlpack dependancy
+// -DARMA_DONT_USE_WRAPPER -lopenblas, Armadillo library, mlpack dependancy
