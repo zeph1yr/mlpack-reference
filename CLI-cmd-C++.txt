@@ -1,4 +1,4 @@
-g++ a.cpp -o a -fopenmp -lpthread -lmlpack -DARMA_DONT_USE_WRAPPER -lopenblas
+g++ a.cpp -o a -fopenmp -lpthread -lmlpack -DARMA_DONT_USE_WRAPPER -lopenblas -llpack
 
 // Installed from ubuntu package manager
 // Object file = a
